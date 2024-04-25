@@ -19,7 +19,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      key: _scaffoldKey, // Associate the scaffold key
+      key: _scaffoldKey,
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
